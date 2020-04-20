@@ -11,7 +11,7 @@ services:
     depends_on:
       - mongo
     deploy:
-      replicas: 3
+      replicas: 2
      # placement:
       #  constraints:
           #- node.labels.server == nodeone
