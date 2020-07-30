@@ -46,6 +46,13 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+    <repository>
+        <id>nexus</id>
+        <name>maven-releases</name>
+        <url>http://3.128.135.88:8008/repository/maven-releases/</url>
+    </repository>
+</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
