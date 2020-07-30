@@ -47,12 +47,20 @@
 		</dependency>
 	</dependencies>
 	<distributionManagement>
-    <repository>
-        <id>nexus</id>
-        <name>maven-releases</name>
-        <url>http://3.128.135.88:8008/repository/maven-releases/</url>
-    </repository>
-</distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Bharath Nexus Repository</name>
+	      <url>http://3.128.135.88:8008/repository/maven-releases/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Bharath Snapshot Nexus Repository </name>
+	      <url>http://3.128.135.88:8008/repository/maven-snapshots/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
