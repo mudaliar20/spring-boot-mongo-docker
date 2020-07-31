@@ -12,7 +12,7 @@ spec:
         name: springboot
     spec:
       containers:
-      - image: mudaliar20/spring-boot-mongo:@IMG_TAG@
+      - image: 3.128.135.88:8083/spring-boot-mongo:@IMG_TAG@
         name: springboot
         ports:
         - name: springboot
